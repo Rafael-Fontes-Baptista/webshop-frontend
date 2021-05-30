@@ -1,0 +1,23 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 100px;
+}
+
+.Form input {
+  margin: 10px 0;
+  width: 350px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.Tag {
+  border-radius: 5px;
+  padding: 1px 3px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 0.85em;
+  background: #555;
+}

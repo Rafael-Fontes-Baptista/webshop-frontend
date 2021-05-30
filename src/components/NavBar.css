@@ -1,0 +1,34 @@
+.NavBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #5d5c61;
+  height: 70px;
+  width: 100%;
+  padding: 0 5%;
+  margin-bottom: 50px;
+}
+
+.MainMenu,
+.UserMenu,
+.NavBrand {
+  width: 33%;
+}
+
+.NavBrand {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.UserMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserMenu p {
+  margin: 0 10px 0 0;
+  color: #fff;
+}
